@@ -1,0 +1,99 @@
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgb(39, 49, 60);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    color: #ffffff;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #b2bcc5;
+    text-align: inherit;
+    background-color: #27313c;
+    border: 0;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0;
+    margin: .125rem 0 0;
+    font-size: .9rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.card-header:first-child {
+    border-radius: 0px;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #27313c;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+
+.list-group-item-action {
+    width: 100%;
+    color: #f7f7f7;
+    text-align: inherit;
+}
+
+.calender th{
+    padding: 5px;
+}
+
+table{
+    font-size: small;
+}
+
+.view{
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: blue
+}
+
+/*input[type=text] {*/
+/*    border-top: none;*/
+/*    border-left: none;*/
+/*    border-right: none;*/
+/*    border-bottom: 1px solid #03a8f45e;*/
+/*    padding: 5px 15px;*/
+/*    outline: none;*/
+/*}*/
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease;
+    text-indent: -100%;
+    opacity: 1;
+}
+
+.list-group-item-action {
+    width: 70%;
+    color: #f7f7f7;
+    text-align: inherit;
+}
+
+
+input, select, textarea{
+    border-radius: 0px !important;
+}
